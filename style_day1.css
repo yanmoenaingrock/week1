@@ -1,0 +1,41 @@
+body {
+	background-color: #e5ebec;
+}
+
+h1 {
+	text-align: center;
+	font-family: arial, sens-serif;
+}
+
+/* demostrate how to center the first h2 whithout effecting other h2 element */
+.gld {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+
+
+.container {
+	width: 80%;
+	margin: 0 auto;
+	background-color: white;
+	padding: 20px; /* latest modification */
+}
+
+
+.para {
+	font-size: 17px;
+	letter-spacing: 0.5px;
+	line-height: 1.7;
+}
+
+
+.read-more a {
+	text-decoration: none;
+	font-size: 15px;
+}
+
+.read-more a:hover {
+	text-decoration: underline;
+	color: gray;
+}
