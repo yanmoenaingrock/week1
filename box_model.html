@@ -1,9 +1,29 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Box Model</title>
+	<title>Box Models</title>
 </head>
-<body>
 
+<style type="text/css">
+	.box {
+		width: 200px;
+		height: 200px;
+		margin: auto;
+		background-color: cyan;
+
+		border: 50px solid green;  /* border-box */
+		padding: 50px; /* padding-box */
+		margin-top: 100px;
+
+		overflow: hidden; /* demostrate */
+	}
+</style>
+
+<body>
+	<div class="box">
+		If you specify a background image, you should also specify a color. The color will not be visible unless the image fails to display for some reason, or unless the imagehas transparent areas in it. The background color is especially important if you use a dark background image and a light foreground color; if the image does not appear, the text still must appear on a dark background to be readable.If you specify a background image, you should also specify a color. The color will not be visible unless the image fails to display for some reason, or unless the imagehas transparent areas in it. The background color is especially important if you use a dark background image and a light foreground color; if the image does not appear, the text still must appear on a dark background to be readable.
+	</div>
 </body>
 </html>
+
+
